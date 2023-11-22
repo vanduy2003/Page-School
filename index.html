@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+    </head>
+
+    <body>
+
+        <header>
+            <!--header-top-->
+            <div class="top container-fluid">
+                <div class="header-top container">
+                    <div class="logo">
+                        <img src="assets/img/logo-1.png" alt>
+                    </div>
+                    <div class="language">
+                        <img
+                            src="assets/img/flag-united-kingdom_1f1ec-1f1e7.png"
+                            alt class="icon">
+                        <div class="InputContainer">
+                            <input type="text" name="text" class="input"
+                                id="input" placeholder="Search...">
+
+                            <label for="input" class="labelforsearch">
+                                <svg viewBox="0 0 512 512" class="searchIcon"><path
+                                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+                            </label>
+                            <div class="border"></div>
+
+                            <button class="micButton"><svg viewBox="0 0 384 512"
+                                    class="micIcon"><path
+                                        d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"></path></svg>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header-under-->
+            <div class="under container-fluid">
+                <div class="header-under container">
+                    <div class="logo-home">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+                            viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path
+                                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" /></svg>
+                    </div>
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            GIỚI THIỆU
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Ban Giám hiệu</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Sứ mạng – Mục tiêu
+                                                    – Tầm nhìn</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Định hướng phát
+                                                    triển</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Ba công khai</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            TUYỂN SINH
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tuyển sinh Đại học
+                                                    2023</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tuyển sinh thạc sĩ
+                                                    2023</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Quy chế tuyển sinh</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Đề án thi đánh giá
+                                                    năng lực</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tra cứu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            ĐÀO TẠO
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tuyển sinh Đại học
+                                                    2023</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tuyển sinh thạc sĩ
+                                                    2023</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Quy chế tuyển sinh</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Đề án thi đánh giá
+                                                    năng lực</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tra cứu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            KHOA - ĐƠN VỊ
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tuyển sinh Đại học
+                                                    2023</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tuyển sinh thạc sĩ
+                                                    2023</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Quy chế tuyển sinh</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Đề án thi đánh giá
+                                                    năng lực</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Tra cứu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">NGHIÊN CỨU
+                                            KHOA
+                                            HỌC</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            HỢP TÁC QUỐC TẾ
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Action</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Another
+                                                    action</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Something
+                                                    else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">VIỆC LÀM</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HỌC BỔNG</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            HỎI ĐÁP
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Action</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Another
+                                                    action</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Something
+                                                    else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            ĐBCL
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Action</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Another
+                                                    action</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Something
+                                                    else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            SINH VIÊN
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="#">Action</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="#">Another
+                                                    action</a></li>
+
+                                            <li><a class="dropdown-item"
+                                                    href="#">Something
+                                                    else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+            <!-- carousels -->
+            <div class="carousels">
+                <div id="carouselExampleIndicators" class="carousel slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"
+                            data-bs-interval="2000">
+                            <img
+                                src="assets/img/z4882502009633_07d23bc95a5f08b84605c5df92589033.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img
+                                src="assets/img/z4882503035701_4425ad2cd69523e091dcc1b44be54820.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img
+                                src="assets/img/z4882505126939_f4c6dd9610589df4339b970d8fa0f9fe.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- new -->
+            <section>
+                <div class="news container">
+                    <h1 class="heading">TIN TỨC</h1>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img
+                                    src="assets/img/z4883196428185_e074e5af80c5f8d3aecde7f7f7fe8e59.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">[2023] Đặc điểm nổi
+                                        bật của Công nghệ kỹ thuật điều khiển –
+                                        tự động hoá hiện nay </h5>
+                                    <p class="card-text">Trong công cuộc đổi
+                                        mới, phát triển kinh tế đất nước theo
+                                        định hướng cách</p>
+                                    <span class="desc">Trường Đại học Công nghệ
+                                        Đông Á đầu tư đội ngũ giảng viên là giáo
+                                        sư, tiến sĩ chuyên gia đầu ngành luôn
+                                        đảm bảo về chất lượng giảng dạy...</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img
+                                    src="assets/img/z4883196785129_d0157e2fa7a3df89603c752b8e7f2157.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Học ngành Công nghệ
+                                        kỹ thuật Nhiệt – điện lạnh ra trường có
+                                        dễ xin việc không? </h5>
+                                    <p class="card-text">Trong công cuộc đổi
+                                        mới, phát triển kinh tế đất nước theo
+                                        định hướng cách</p>
+                                    <span class="desc">Trường Đại học Công nghệ
+                                        Đông Á đầu tư đội ngũ giảng viên là giáo
+                                        sư, tiến sĩ chuyên gia đầu ngành luôn
+                                        đảm bảo về chất lượng giảng dạy...</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img
+                                    src="assets/img/z4883197073554_b58ce86c418c4567cee92ee15acff081.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CƠ HỘI NGHỀ NGHIỆP
+                                        TẠI NHẬT BẢN TẠI HỘI THẢO TRUNG TÂM
+                                        IHRDC VIỆT NAM TỔ CHỨC
+                                    </h5>
+                                    <p class="card-text">Trong công cuộc đổi
+                                        mới, phát triển kinh tế đất nước theo
+                                        định hướng cách</p>
+                                    <span class="desc">Trường Đại học Công nghệ
+                                        Đông Á đội ngũ giảng viên là giáo
+                                        sư, tiến sĩ chuyên gia đầu ngành luôn
+                                        đảm bảo về chất lượng giảng dạy...</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="link-news">
+                        <a href="#">TIN TỨC KHÁC>></a>
+                    </div>
+                </div>
+            </section>
+            <!-- evens -->
+            <section>
+                <div class="evens">
+                    <div class="evens container">
+                        <h1 class="heading">SỰ KIỆN</h1>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img
+                                        src="assets/img/z4883196428185_e074e5af80c5f8d3aecde7f7f7fe8e59.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">NHÀ VÔ ĐỊCH RUNG
+                                            CHUÔNG VÀNG EAUT 2023 GỌI TÊN KHOA
+                                            ĐIỆN – ĐIỆN TỬ </h5>
+
+                                        <span class="desc desc1">Trường Đại học
+                                            Công
+                                            nghệ
+                                            Đông Á đầu tư đội ngũ giảng viên là
+                                            giáo
+                                            sư, tiến sĩ chuyên gia đầu ngành
+                                            luôn
+                                            đảm bảo về chất lượng giảng dạy...</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img
+                                        src="assets/img/z4883196785129_d0157e2fa7a3df89603c752b8e7f2157.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">“NGÀY HỘI MÁY
+                                            TÍNH 2023” – KẾT NỐI CÔNG NGHỆ CÙNG
+                                            SINH VIÊN EAUT </h5>
+
+                                        <span class="desc desc1">Trường Đại học
+                                            Công
+                                            nghệ
+                                            Đông Á đầu tư đội ngũ giảng viên là
+                                            giáo
+                                            sư, tiến sĩ chuyên gia đầu ngành
+                                            luôn
+                                            đảm bảo về chất lượng giảng dạy...</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="even-content">
+                                    <div class="even-item">
+                                        <p class="item-month">Tháng 01</p>
+                                        <div>
+                                            <a href="#" class="even-link">Lễ
+                                                trao thưởng sinh viên đạt giải
+                                                Olympic Toán Quốc gia và Sinh
+                                                viên đạt giải nghiên cứu khoa
+                                                học cấp trường năm 2022 – 2023.</a>
+                                        </div>
+                                    </div>
+                                    <div class="even-item">
+                                        <p class="item-month">Tháng 12</p>
+                                        <div>
+                                            <a href="#" class="even-link">NHÀ VÔ
+                                                ĐỊCH RUNG CHUÔNG VÀNG EAUT 2023
+                                                GỌI TÊN KHOA ĐIỆN – ĐIỆN TỬ</a>
+                                        </div>
+                                    </div>
+                                    <div class="even-item">
+                                        <p class="item-month">Tháng 04</p>
+                                        <div>
+                                            <a href="#" class="even-link">Lễ
+                                                trao thưởng sinh viên đạt giải
+                                                Olympic Toán Quốc gia và Sinh
+                                                viên đạt giải nghiên cứu khoa
+                                                học cấp trường năm 2022 – 2023.</a>
+                                        </div>
+                                    </div>
+                                    <div class="even-item">
+                                        <p class="item-month">Tháng 11</p>
+                                        <div>
+                                            <a href="#" class="even-link">NHÀ VÔ
+                                                ĐỊCH RUNG CHUÔNG VÀNG EAUT 2023
+                                                GỌI TÊN KHOA ĐIỆN – ĐIỆN TỬ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="link-news">
+                            <a href="#">SỰ KIỆN KHÁC>></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- student -->
+            <section>
+                <div class="students container">
+                    <h1 class="heading">SINH VIÊN TỐT NGHIỆP</h1>
+                    <div class="student ">
+                        <div class="media">
+                            <iframe src="https://youtube.com/embed/f4L1wg4M3jQ"></iframe>
+                        </div>
+                        <div class="infomation">
+                            <div class="info-item">
+                                <img src="assets/img/CHECK.jpg" alt>
+                                <div class="info">
+                                    <p class="info-desc">Thực học</p>
+                                    <span> vững vàng kiến thức chuyên môn</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <img src="assets/img/CHECK.jpg" alt>
+                                <div class="info">
+                                    <p class="info-desc">Thực danh</p>
+                                    <span> tự tin phát huy năng lực, thể hiện
+                                        bản thân</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <img src="assets/img/CHECK.jpg" alt>
+                                <div class="info">
+                                    <p class="info-desc">Thực hành</p>
+                                    <span> Giàu thực tiễn, thực hành, thực tế</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <img src="assets/img/CHECK.jpg" alt>
+                                <div class="info">
+                                    <p class="info-desc">Thực nghiệp</p>
+                                    <span> Gắn kết, đáp ứng tốt yêu cầu doanh
+                                        nghiệp công nghiệp</span>
+                                </div>
+                            </div>
+                            <button class="button">NỘP HỒ SƠ</button>
+                            <p class="hotline">HOTLINE: 0234.555.4004</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="text-center text-lg-start">
+                    <!-- Grid container -->
+                    <div class="container p-4">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase">HÀ NỘI</h5>
+                                <p>Đại học Công Nghệ Đông Á</p>
+                                <p>Cơ sở đào tạo thực hành</p>
+                                <p>Quyết định thành lập số: 1777/QĐ-TTg Toà Nhà
+                                    Polyco, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</p>
+                                <p>Điện thoại: 0243.555.2008</p>
+                                <p>email: tuyensinh@eaut.edu.vn
+                                </p>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase ">BẮC NINH</h5>
+                                <p>Đại học Công Nghệ Đông Á</p>
+                                <p>Quyết định thành lập số: 1777/QĐ-TTg Toà Nhà
+                                    Polyco, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</p>
+                                <p>Điện thoại: 0243.555.2008</p>
+                                <p>email: tuyensinh@eaut.edu.vn
+                                </p>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase">SOCIAL NETWORK</h5>
+                                <div class="social">
+                                    <a href>
+                                        <img src="assets/img/facebook.png" alt
+                                            class="social-link">
+                                    </a>
+                                    <a href>
+                                        <img
+                                            src="assets/img/1499330748_gmail.png"
+                                            alt class="social-link">
+                                    </a>
+                                    <a href>
+                                        <img
+                                            src="assets/img/1499330730_youtube_circle_color.png"
+                                            alt class="social-link">
+                                    </a>
+                                    <a href>
+                                        <img
+                                            src="assets/img/1499330976_twitter_circle_color.png"
+                                            alt class="social-link">
+                                    </a>
+                                </div>
+                                <h5 class="text-uppercase">CÁC ĐIỀU KHOẢN</h5>
+                                <a class="rule" href>Điều khoản sử dụng</a><br>
+                                <a class="rule" href>Chính sách bảo mật thông
+                                    tin</a>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <a href>
+                                    <img src="assets/img/logoSaleNoti.png" alt
+                                        class="social-logo">
+                                </a>
+
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <div class="messenger">
+            <svg class="messenger-img" xmlns="http://www.w3.org/2000/svg"
+                height="50px" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#005eff}</style><path
+                    d="M256.55 8C116.52 8 8 110.34 8 248.57c0 72.3 29.71 134.78 78.07 177.94 8.35 7.51 6.63 11.86 8.05 58.23A19.92 19.92 0 0 0 122 502.31c52.91-23.3 53.59-25.14 62.56-22.7C337.85 521.8 504 423.7 504 248.57 504 110.34 396.59 8 256.55 8zm149.24 185.13l-73 115.57a37.37 37.37 0 0 1-53.91 9.93l-58.08-43.47a15 15 0 0 0-18 0l-78.37 59.44c-10.46 7.93-24.16-4.6-17.11-15.67l73-115.57a37.36 37.36 0 0 1 53.91-9.93l58.06 43.46a15 15 0 0 0 18 0l78.41-59.38c10.44-7.98 24.14 4.54 17.09 15.62z" /></svg>
+        </div>
+    </body>
+
+</html>
